@@ -1,4 +1,4 @@
-resource "aws-iam_role" "this" {
+resource "aws_iam_role" "this" {
   name = "terraform-role"
   assume_role_policy = jsonencode(
     {
