@@ -5,6 +5,7 @@ resource "aws_iam_group" "this" {
 
 resource "aws_iam_group_membership" "this" {
     users = [ 
-        aw
+        aws_iam_user.this.name
      ]
+    
 }
