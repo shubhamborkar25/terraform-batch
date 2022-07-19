@@ -1,4 +1,5 @@
 resource "aws-iam-role" "this" {
-    name = ""
+    name = "terraform-role"
+    as
   
 }
