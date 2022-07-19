@@ -13,8 +13,6 @@ resource "aws_iam_group_membership" "this" {
         aws_iam_user.this.name
      ]
     
-    group = [
-        
-    ]
+    group = aws_iam_group.this.name
 
 }
