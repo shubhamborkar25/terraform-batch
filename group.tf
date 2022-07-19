@@ -3,6 +3,9 @@ resource "aws_iam_group" "this" {
   path = "/"
 }
 
+resource "aw" "name" {
+  
+}
 resource "aws_iam_group_membership" "this" {
     users = [ 
         aws_iam_user.this.name
