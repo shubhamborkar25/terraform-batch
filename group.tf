@@ -3,7 +3,7 @@ resource "aws_iam_group" "this" {
   path = "/"
 }
 
-resource "aw" "name" {
+resource "aws_iam_" "name" {
   
 }
 resource "aws_iam_group_membership" "this" {
