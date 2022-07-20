@@ -17,10 +17,10 @@ variable "gname" {
   type    = list(any)
   default = ["group1", "group2"]
 }
+
 # variable "num_var" {
 #   type    = number
 #   default = 1
-
 # }
 
 # variable "map_var" {
