@@ -14,7 +14,9 @@ variable "uname" {
 }
 
 variable "gname" {
-    
+    type = list(any)
+    default = ["user1", "user2",
+
   
 }
 variable "num_var" {
