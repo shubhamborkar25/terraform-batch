@@ -6,3 +6,6 @@ variable "env" {
 }
 
 # this is list variable
+variable "" {
+  
+}
