@@ -1,7 +1,8 @@
 resource "aws_iam_group" "this" {
-  name = "developers"
+  name = "demo"
   path = "/"
 }
+
 
 resource "aws_iam_user" "user1" {
     name = "developers"
