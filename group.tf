@@ -12,7 +12,7 @@ resource "aws_iam_group" "this" {
 resource "aws_iam_group_membership" "this" {
   name = "group_members"
   users = [
-    
+    count = length(var.gname
     aws_iam_user.this[0].name,
     aws_iam_user.this[1].name,
     aws_iam_user.this[2].name,
