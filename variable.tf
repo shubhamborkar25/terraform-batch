@@ -1,5 +1,7 @@
+# this is string variable
+
 variable "env" {
-  type    = string   # this is string variable
+  type    = string   
   default = "dev"
 }
 
