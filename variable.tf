@@ -6,6 +6,7 @@ variable "env" {
 }
 
 # this is list variable
-variable "" {
-  
+variable "uname" {
+  type = list 
+  default = [""]
 }
