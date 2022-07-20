@@ -1,8 +1,8 @@
 # create a group 
-resource "aws_iam_group" "group_1" {
-  count = length(var.gname)
-  name  = element(var.gname, count.index)
-}
+# resource "aws_iam_group" "group_1" {
+#   count = length(var.gname)
+#   name  = element(var.gname, count.index)
+# }
 
 resource "aws_iam_group" "this" {
     name = var.gname[0]
