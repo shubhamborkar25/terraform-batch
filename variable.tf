@@ -1,3 +1,3 @@
-variable "" {
+variable "string_var" {
   
 }
