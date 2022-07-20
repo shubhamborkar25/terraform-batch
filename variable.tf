@@ -30,5 +30,5 @@ variable "map_var" {
 
 variable "group" {
   type = list(any)
-  default = [ "" ]
+  default = [ "demo", "demo2"]
 }
