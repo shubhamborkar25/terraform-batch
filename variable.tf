@@ -16,3 +16,7 @@ variable "num_var" {
   default = 1
 
 }
+
+variable "" {
+  
+}
