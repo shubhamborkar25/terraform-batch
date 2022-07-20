@@ -5,7 +5,7 @@ resource "aws_iam_group" "group_1" {
 }
 
 resource "aws_iam_group" "this" {
-    name = var.
+    name = var.gname[0]
   
 }
 
