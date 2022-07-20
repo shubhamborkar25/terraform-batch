@@ -1,5 +1,5 @@
 resource "aws_iam_group" "this" {
-  name = "demo"
+  name = name.
   path = "/"
 }
 
