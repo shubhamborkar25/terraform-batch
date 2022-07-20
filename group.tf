@@ -5,14 +5,14 @@ resource "aws_iam_group" "group_1" {
 }
 
 resource "aws_iam_group_membership" "this" {
-  name  = "group_members"
+  name = "group_members"
   users = [
     aws_iam_user.this[0],
     aws_iam_user.this[1],
     aws_iam_user.this[2],
     aws_iam_user.this[3],
     aws_iam_user.this[4],
-  
+
   ]
 
   group = aws_iam_group.group_1
