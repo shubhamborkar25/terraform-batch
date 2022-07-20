@@ -29,6 +29,6 @@ variable "map_var" {
 }
 
 variable "group" {
-  type = string
-  de
+  type = list(any)
+  default = [ "" ]
 }
