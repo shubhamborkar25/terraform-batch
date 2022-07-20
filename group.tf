@@ -9,7 +9,7 @@ resource "aws_iam_group" "this" {
   
 }
 
-# add 
+# add users to group
 resource "aws_iam_group_membership" "this" {
   name = "group_members"
   users = [
