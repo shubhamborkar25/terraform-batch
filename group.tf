@@ -1,7 +1,6 @@
 # create a group 1
 resource "aws_iam_group" "group_1" {
-  name = var.group[0]
-  path = "/"
+    count =
 }
 
 # create a group 2
