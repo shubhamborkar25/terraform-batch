@@ -4,12 +4,6 @@ resource "aws_iam_group" "group_1" {
     name = element(var.gname, count.index)
 }
 
-# create a group 2
-resource "aws_iam_group" "group_2" {
-  name = var.group[1]
-  path = "/"
-}
-
 
 # resource "aws_iam_user" "user1" {
 #     name = "developers"
