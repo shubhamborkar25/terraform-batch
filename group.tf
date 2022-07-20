@@ -4,11 +4,11 @@ resource "aws_iam_group" "group_1" {
   name  = element(var.gname, count.index)
 }
 
-# resource "aws_iam_group_membership" "this" {
-#     name = "group_members"
-#     users = element(var.uname.this.name)
+resource "aws_iam_group_membership" "this" {
+    name = "group_members"
+    users = element(var.uname.this.name)
 
 
-#     group = aws_iam_group.group_1
+    group = aws_iam_group.group_1
 
-# }
+}
