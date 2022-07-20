@@ -1,7 +1,7 @@
 # create a group 1
 resource "aws_iam_group" "group_1" {
     count = length(var.gname)
-    name = 
+    name = element(var.gname, count)
 }
 
 # create a group 2
