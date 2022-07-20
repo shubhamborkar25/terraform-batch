@@ -9,6 +9,6 @@ resource "aws_iam_group_membership" "this" {
     users = element(var.uname.this.name)
     
 
-    group = aws_iam_group.this.name
+    group = aws_iam_group.group_1
 
 }
