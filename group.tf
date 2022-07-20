@@ -5,10 +5,10 @@ resource "aws_iam_group" "group_1" {
 }
 
 resource "aws_iam_group_membership" "this" {
-    name = "group_members"
-    users = element(var.uname.this.name)
+  name  = "group_members"
+  users = element(var.uname.this.name)
 
 
-    group = aws_iam_group.group_1
+  group = aws_iam_group.group_1
 
 }
