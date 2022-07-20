@@ -5,6 +5,8 @@ resource "aws_iam_group" "group_1" {
 }
 
 resource "aws_iam_group" "this" {
+    name = element(var.gname, 0)
+
   
 }
 
