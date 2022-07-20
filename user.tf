@@ -4,4 +4,4 @@ resource "aws_iam_user" "this" {
   tags = {
     name = var.env
   }
-  }
+}
