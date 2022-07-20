@@ -1,5 +1,5 @@
 resource "aws_iam_group" "this" {
-  name = var.group.name
+  name = var.group.na
   path = "/"
 }
 
