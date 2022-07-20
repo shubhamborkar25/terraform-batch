@@ -4,7 +4,7 @@ resource "aws_iam_group" "group_1" {
   name  = element(var.gname, count.index)
 }
 
-resource "aws_iam" "name" {
+resource "aws_iam_group" "this" {
   
 }
 
