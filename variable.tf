@@ -20,7 +20,7 @@ variable "num_var" {
 variable "map_var" {
     type = map
     default = {
-        "a": "user1", "b": "user2", "c": "user3
+        "a": "user1", "b": "user2", "c": "user3"
 
-  
+    }
 }
