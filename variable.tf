@@ -21,7 +21,8 @@ variable "map_var" {
   type = map(any)
   default = {
     "a" : "user1", 
-    "b" : "user2", "c" : "user3"
+    "b" : "user2", 
+    "c" : "user3"
 
   }
 }
