@@ -12,15 +12,16 @@ variable "uname" {
 }
 
 variable "num_var" {
-  type = number
+  type    = number
   default = 1
 
 }
 
 variable "map_var" {
-    type = map
-    default = {
-        "a": "user1", "b": "user2", "c": "user3"
+  type = map(any)
+  default = {
+    "a" : "user1", 
+    "b" : "user2", "c" : "user3"
 
-    }
+  }
 }
