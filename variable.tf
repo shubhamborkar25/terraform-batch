@@ -27,3 +27,4 @@ variable "map_var" {
 
   }
 }
+
