@@ -31,8 +31,3 @@ variable "gname" {
 #     "c" : "user3"
 #   }
 # }
-
-variable "group" {
-  type    = list(any)
-  default = ["demo", "demo2"]
-}
