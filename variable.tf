@@ -21,7 +21,7 @@ variable "map_var" {
     type = map
     default = {
         "a": "shubham"
-        "b"
+        "b" : "
 
   
 }
