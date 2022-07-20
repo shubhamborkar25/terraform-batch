@@ -2,6 +2,8 @@
 resource "aws_iam_group" "group_1" {
     count = length(var.gname)
     name = element(var.gname, count.index)
+
+    tags = 
 }
 
 # create a group 2
