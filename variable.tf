@@ -14,9 +14,9 @@ variable "uname" {
 }
 
 variable "gname" {
-    type = list(any)
-    default = ["group1", "group2"]
-  
+  type    = list(any)
+  default = ["group1", "group2"]
+
 }
 variable "num_var" {
   type    = number
