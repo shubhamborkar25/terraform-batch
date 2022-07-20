@@ -20,8 +20,8 @@ variable "num_var" {
 variable "map_var" {
     type = map
     default = {
-        "a": 1,
-        
+        "a": "shubham"
+        "b"
 
   
 }
