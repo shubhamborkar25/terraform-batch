@@ -1,9 +1,10 @@
-# 
+# create a group 1
 resource "aws_iam_group" "this" {
   name = var.group[1]
   path = "/"
 }
 
+# create a group 2
 resource "aws_iam_group" "this" {
   name = var.group[1]
   path = "/"
