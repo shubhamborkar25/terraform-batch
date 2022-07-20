@@ -28,3 +28,6 @@ variable "map_var" {
   }
 }
 
+variable "gr" {
+  
+}
