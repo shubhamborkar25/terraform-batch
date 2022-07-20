@@ -1,5 +1,5 @@
 resource "aws_iam_user" "this" {
-  name = var.u
+  name = var.uname
 
   tags = {
     name = var.env
