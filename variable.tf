@@ -29,5 +29,6 @@ variable "map_var" {
 }
 
 variable "group" {
-  
+  type = string
+  de
 }
