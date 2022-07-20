@@ -1,5 +1,5 @@
 variable "env" {
-  type    = string   
+  type    = string   # this is string variable
   default = "dev"
 }
 
