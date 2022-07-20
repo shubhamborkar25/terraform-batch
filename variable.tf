@@ -1,4 +1,4 @@
-variable "string_var" {
+variable "dev" {
     type = "string"
     default = 
   
