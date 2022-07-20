@@ -12,5 +12,7 @@ variable "uname" {
 }
 
 variable "num_var" {
-  type
+  type = number
+  default = 1
+
 }
