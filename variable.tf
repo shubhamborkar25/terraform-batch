@@ -17,6 +17,8 @@ variable "num_var" {
 
 }
 
-variable "" {
+variable "map_var" {
+    type = map
+    
   
 }
