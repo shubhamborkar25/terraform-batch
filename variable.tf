@@ -13,6 +13,10 @@ variable "uname" {
   "user7", "user8", "user9", "user10"]
 }
 
+variable "gname" {
+    
+  
+}
 variable "num_var" {
   type    = number
   default = 1
