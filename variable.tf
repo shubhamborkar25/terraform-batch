@@ -29,7 +29,6 @@ variable "gname" {
 #     "a" : "user1",
 #     "b" : "user2",
 #     "c" : "user3"
-
 #   }
 # }
 
