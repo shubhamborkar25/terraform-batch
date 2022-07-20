@@ -1,5 +1,5 @@
 resource "aws_iam_user" "this" {
-  name = var.uname[1]
+  count = "${length(var.iam_users)}
 
   tags = {
     name = var.env
