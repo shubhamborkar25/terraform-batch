@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+Wed Jul 20 2022 10:29:43 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-20-6-2022-10-29-23.txt
+* variable.tf
+
+
+Deleted files:
+
+
+Renamed files:
