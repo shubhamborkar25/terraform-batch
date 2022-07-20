@@ -7,7 +7,7 @@ resource "aws_iam_group" "group_1" {
 resource "aws_iam_group_membership" "this" {
   name  = "group_members"
   users = {
-    var.uname[0
+    aws
 
 
   group = aws_iam_group.group_1
