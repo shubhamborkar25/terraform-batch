@@ -1,7 +1,9 @@
 resource "aws_iam_group" "this" {
-  name = var.group.na
+  name = var.group[1]
   path = "/"
 }
+
+
 
 
 resource "aws_iam_user" "user1" {
