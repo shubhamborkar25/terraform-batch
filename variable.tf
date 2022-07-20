@@ -5,3 +5,4 @@ variable "env" {
   default = "dev"
 }
 
+# this is list variable
